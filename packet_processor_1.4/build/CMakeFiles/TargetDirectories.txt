@@ -1,0 +1,6 @@
+/home/carla/Escritorio/ED/ed/packet_processor_1.4/build/CMakeFiles/rebuild_cache.dir
+/home/carla/Escritorio/ED/ed/packet_processor_1.4/build/CMakeFiles/test_packet_processor.dir
+/home/carla/Escritorio/ED/ed/packet_processor_1.4/build/CMakeFiles/edit_cache.dir
+/home/carla/Escritorio/ED/ed/packet_processor_1.4/build/CMakeFiles/test_queue.dir
+/home/carla/Escritorio/ED/ed/packet_processor_1.4/build/CMakeFiles/test_stack.dir
+/home/carla/Escritorio/ED/ed/packet_processor_1.4/build/CMakeFiles/test_slist.dir

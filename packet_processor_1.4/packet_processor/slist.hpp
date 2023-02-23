@@ -284,7 +284,9 @@ protected:
   //TODO
   //Give a representation using a simple linked list of nodes.
   //We want a size() operation with O(1).
-
+  typename SNode<T>::Ref _head;
+  typename SNode<T>::Ref _current;
+  std::size_t _size;
   //
 };
 
