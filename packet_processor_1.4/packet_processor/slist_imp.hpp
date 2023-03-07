@@ -30,7 +30,7 @@ SNode<T>::SNode (T const& it, SNode<T>::Ref& next)
 {
     //TODO
     _item = it;
-    _next = nullptr;
+    _next = next;
     //
 }
 
@@ -153,7 +153,10 @@ typename SList<T>::Ref SList<T>::create(std::istream& in) noexcept(false)
     // parameter T type.
     // Throw std::runtime_error("Wrong input format.") exception when an input
     // format error was found.
-
+    list->_head=nullptr;
+    if(token=="["){
+        in>>token;
+    }
 
 
     //
@@ -319,8 +322,11 @@ void SList<T>::pop_front()
     auto old_head_next = head()->next();
 #endif
     //TODO
+
     auto aux=_head->next();
-    _head->~SNode();
+    if(_current==_head){
+        _current=aux;
+    }
     _head=aux;
     _size-=1;
 
@@ -370,10 +376,10 @@ void SList<T>::remove()
         for(auto it=_head;it!=_current;it=it->next()){
             if(it->next()==_current){
                 it->set_next(aux);
-                _current=it;
                 break;
             }
         }
+        _current=aux;
 
     }
     _size-=1;
@@ -413,10 +419,18 @@ bool SList<T>::find(T const& it)
     assert(!is_empty());
     bool found = false;
     //TODO
-    for(auto iter=_head;iter->next()!=nullptr;iter=iter->next()){
-        if(iter->item()==it){
+    _current=_head;
+    auto aux=_current;
+    while(aux!=nullptr){
+        if(_current->item()==it){
                 found=true;
+                break;
         }
+
+        if(aux->has_next()){
+            _current=_current->next();
+        }
+        aux=aux->next();
     }
     //
     assert(!found || current()==it);

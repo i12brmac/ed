@@ -16,7 +16,7 @@ template<class T>
 Stack<T>::Stack ()
 {
     //TODO
-
+    l_=SList<T>::create();
     //
     assert(is_empty());
 }
@@ -43,7 +43,9 @@ bool Stack<T>::is_empty () const
 {
     bool ret_val = true;
     //TODO
-
+    if(l_->size()!=0){
+        ret_val=false;
+    }
     //
     return ret_val;
 }
@@ -53,7 +55,7 @@ size_t Stack<T>::size () const
 {
     size_t ret_val = 0;
     //TODO
-
+    ret_val=l_->size();
     //
     return ret_val;
 }
@@ -64,7 +66,7 @@ T Stack<T>::top() const
     assert(! is_empty());
     T it;
     //TODO
-
+    it=l_->front();
     //
     return it;
 }
@@ -84,7 +86,7 @@ void Stack<T>::push(const T& new_it)
     size_t old_size = size();
 #endif
     //TODO
-
+    l_->push_front(new_it);
     //
     assert(top()==new_it);
     assert(size()==(old_size+1));
@@ -98,7 +100,7 @@ void Stack<T>::pop()
 #endif
     assert(! is_empty());
     //TODO
-
+    l_->pop_front();
     //
     assert(size()==(old_size-1));
 }

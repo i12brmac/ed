@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_packet_processor.dir/packet_processor.cpp.o"
+  "CMakeFiles/test_packet_processor.dir/packet_processor.cpp.o.d"
   "CMakeFiles/test_packet_processor.dir/test_packet_processor.cpp.o"
+  "CMakeFiles/test_packet_processor.dir/test_packet_processor.cpp.o.d"
   "test_packet_processor"
   "test_packet_processor.pdb"
 )
