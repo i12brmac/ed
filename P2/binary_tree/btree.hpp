@@ -91,7 +91,9 @@ protected:
     //TODO
     //Specify a representation.
     //Hint: use typename BTNode<T>::Ref for the link to other nodes.
-
+    T _item;
+    typename BTNode<T>::Ref _left;
+    typename BTNode<T>::Ref _right;
     //
 };
 
@@ -267,7 +269,7 @@ protected:
 
   //TODO
   //Give a representation.
-
+    typename BTNode<T>::Ref _root;
 };
 
 #include "btree_imp.hpp"

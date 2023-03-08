@@ -1,0 +1,4 @@
+/home/carla/Escritorio/ED/ed/P2/build/CMakeFiles/test_btree_node.dir
+/home/carla/Escritorio/ED/ed/P2/build/CMakeFiles/test_btree.dir
+/home/carla/Escritorio/ED/ed/P2/build/CMakeFiles/edit_cache.dir
+/home/carla/Escritorio/ED/ed/P2/build/CMakeFiles/rebuild_cache.dir

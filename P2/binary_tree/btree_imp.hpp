@@ -15,7 +15,9 @@ BTNode<T>::BTNode (T const& it, BTNode<T>::Ref l,
                    BTNode<T>::Ref r)
 {
     //TODO
-
+    _item=it;
+    _left=l;
+    _right=r;
     //
     assert(item()==it);
     assert(left()==l);
@@ -36,7 +38,7 @@ T BTNode<T>::item() const
 
     T ret_v;
     //TODO
-
+    ret_v=_item;
     //
     return ret_v;
 }
@@ -49,7 +51,7 @@ typename BTNode<T>::Ref BTNode<T>::left() const
 
     typename BTNode<T>::Ref child;
     //TODO
-
+    child=_left;
     //
     return child;
 }
@@ -61,7 +63,7 @@ typename BTNode<T>::Ref BTNode<T>::right() const
 
     typename BTNode<T>::Ref child;
     //TODO
-
+    child=_right;
     //
     return child;
 }
@@ -70,7 +72,7 @@ template<class T>
 void BTNode<T>::set_item(const T& new_it)
 {
     //TODO
-
+    _item=new_it;
     //
     assert(item()==new_it);
 }
@@ -79,7 +81,7 @@ template<class T>
 void BTNode<T>::set_left(BTNode<T>::Ref new_child)
 {
     //TODO
-
+    _left=new_child;
     //
     assert(left()==new_child);
 }
@@ -88,7 +90,7 @@ template<class T>
 void BTNode<T>::set_right(BTNode<T>::Ref new_child)
 {
     //TODO
-
+    _right=new_child;
     //
     assert(right()==new_child);
 }
@@ -101,6 +103,7 @@ template<class T>
 BTree<T>::BTree ()
     {
         //TODO
+            _root=nullptr;
 
         //
         assert(is_empty());
@@ -110,7 +113,9 @@ BTree<T>::BTree ()
     BTree<T>::BTree (const T& it)
     {
         //TODO
-
+        _root->set_item(it);
+        _root->set_left(nullptr);
+        _root->set_right(nullptr);
         //
         assert(!is_empty());
         assert(item()==it);
@@ -138,7 +143,26 @@ template<class T>
       //TODO
       //Remember: throw std:runtime_error exception with text
       //"Wrong input format." when an input format error is found.
-
+        in>>token;
+        T v;
+        if(token=="["){
+            in>>token;
+            auto var=std::istringstream(token);
+            var>>v;
+            if(!var){
+                throw std::runtime_error("Wrong input format.");
+            }
+            tree->create_root(v);
+            tree->set_left(create(in));
+            tree->set_right(create(in));
+            in>>token;
+            if(token!="]"){
+                throw std::runtime_error("Wrong input format.");
+            }
+        }
+        else if(token!="[]"){
+            throw std::runtime_error("Wrong input format.");
+        }
       //
       return tree;
   }
@@ -148,7 +172,9 @@ template<class T>
   {
       bool ret_v = false;
       //TODO
-
+      if(_root==nullptr){
+          ret_v=true;
+      }
       //
       return ret_v;
   }
@@ -159,7 +185,7 @@ template<class T>
       assert(!is_empty());
       T ret_v;
       //TODO
-
+        ret_v=_root->item();
       //
       return ret_v;
   }
@@ -172,6 +198,7 @@ template<class T>
       //TODO
       //Hint: use the private constructor given a root node.
 
+        subtree = BTree<T>::create(_root->left());
       //
       return subtree;
   }
@@ -183,7 +210,7 @@ template<class T>
       BTree<T>::Ref subtree = nullptr;
       //TODO
       //Hint: use the private constructor given a root node.
-
+        subtree=BTree<T>::create(_root->right());
       //
       return subtree;
   }
@@ -192,7 +219,19 @@ template<class T>
   std::ostream& BTree<T>::fold(std::ostream& out) const
   {
       //TODO
+        if(_root==nullptr){
+            out<<"[]";
+        }
+        else{
+            out<<"[ ";
+            out<<_root->item();
+            out<<" ";
 
+            left()->fold(out);
+            out<<" ";
+            right()->fold(out);
+            out<<" ]";
+        }
       //
       return out;
   }
@@ -202,7 +241,7 @@ template<class T>
     {
         assert(is_empty());
         //TODO
-
+        _root=BTNode<T>::create(it);
         //
         assert(!is_empty());
         assert(item()==it);
@@ -216,7 +255,7 @@ template<class T>
   {
       assert(!is_empty());
       //TODO
-
+        _root->set_item(new_it);
       //
       assert(item()==new_it);
   }
@@ -226,7 +265,8 @@ template<class T>
   {
       assert(!is_empty());
       //TODO
-
+        auto new_node=new_left->root();
+        _root->set_left(new_node);
       //
       assert(left()->root()==new_left->root());
   }
@@ -236,7 +276,8 @@ template<class T>
   {
       assert(!is_empty());
       //TODO
-
+      auto new_node=new_right->root();
+      _root->set_right(new_node);
       //
       assert(right()->root()==new_right->root());
   }
@@ -245,7 +286,7 @@ template<class T>
   BTree<T>::BTree (typename BTNode<T>::Ref n)
   {
       //TODO
-
+    _root=n;
       //
       assert(root()==n);
   }
@@ -264,7 +305,7 @@ template<class T>
   {
       typename BTNode<T>::Ref node;
       //TODO
-
+        node=_root;
       //
       return node;
   }
@@ -273,7 +314,7 @@ template<class T>
   void BTree<T>::set_root(typename BTNode<T>::Ref new_root)
   {
       //TODO
-
+        _root=new_root;
       //
       assert(root()==new_root);
   }
