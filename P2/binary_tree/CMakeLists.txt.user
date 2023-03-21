@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2023-03-07T18:21:21. -->
+<!-- Written by QtCreator 6.0.2, 2023-03-14T19:06:04. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -209,6 +209,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">test_btree</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.test_btree</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">test_btree</value>
+    <value type="QString" key="RunConfiguration.Arguments">/home/carla/Escritorio/ED/ed/P2/binary_tree/tests_traversals/12</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>

@@ -113,7 +113,7 @@ BTree<T>::BTree ()
     BTree<T>::BTree (const T& it)
     {
         //TODO
-        _root->set_item(it);
+        _root=BTNode<T>::create(it);
         _root->set_left(nullptr);
         _root->set_right(nullptr);
         //
