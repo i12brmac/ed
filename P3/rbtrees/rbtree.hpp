@@ -172,7 +172,11 @@ protected:
 
   // TODO
   // Give a representation.
-  
+  typename RBTNode<T>::Color color_;
+  typename RBTNode<T>::Ref parent_;
+  typename RBTNode<T>::Ref left_;
+  typename RBTNode<T>::Ref right_;
+  T item_;
   
   //
   RBTNode<T>::Ref this_; //"this" like a shared reference.
@@ -529,8 +533,9 @@ protected:
 
   // TODO
   // Give a representation.
-  
-  
+  typename RBTNode<T>::Ref root_;
+  typename RBTNode<T>::Ref current_;
+  typename RBTNode<T>::Ref parent_;
   //
   Ref this_;
 };
