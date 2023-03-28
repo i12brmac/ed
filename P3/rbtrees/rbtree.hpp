@@ -178,6 +178,7 @@ protected:
   typename RBTNode<T>::Ref right_;
   T item_;
   
+  
   //
   RBTNode<T>::Ref this_; //"this" like a shared reference.
 };
@@ -536,6 +537,7 @@ protected:
   typename RBTNode<T>::Ref root_;
   typename RBTNode<T>::Ref current_;
   typename RBTNode<T>::Ref parent_;
+  
   //
   Ref this_;
 };
