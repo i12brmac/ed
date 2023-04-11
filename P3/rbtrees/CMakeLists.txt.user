@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2023-03-21T18:51:25. -->
+<!-- Written by QtCreator 6.0.2, 2023-04-06T16:21:30. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -209,11 +209,14 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">test_bstree</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.test_bstree</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">test_bstree</value>
+    <value type="QString" key="RunConfiguration.Arguments">50</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseTerminal">false</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory">/home/carla/Escritorio/ED/ed/P3/rbtrees/tests_bstree_perfectly_balanced</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/carla/Escritorio/ED/ed/P3/build</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
