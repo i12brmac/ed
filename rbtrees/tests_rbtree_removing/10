@@ -1,5 +1,0 @@
-#case 3.2b (Parent is black and root)
-UNFOLD [ 20 B [ 10 B [] [] ] [ 30 B [] [] ] ]
-REMOVE 10
-SEARCH 10
-FOLD

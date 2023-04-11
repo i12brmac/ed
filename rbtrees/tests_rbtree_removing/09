@@ -1,5 +1,0 @@
-# case 3.2a4 RL
-UNFOLD [ 30 R [ 20 B [] [] ] [ 40 B [ 35 R [] [] ] [] ] ]
-REMOVE 20
-SEARCH 20
-FOLD

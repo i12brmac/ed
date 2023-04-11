@@ -1,5 +1,0 @@
-# case 3.2a LL
-UNFOLD [ 30 B [ 20 B [ 10 R [] [] ] [ 25 R [] [] ] ] [ 40 B [] [] ] ]
-REMOVE 40
-SEARCH 40
-FOLD
