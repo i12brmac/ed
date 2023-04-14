@@ -1,0 +1,5 @@
+/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/CMakeFiles/test_trie_node.dir
+/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/CMakeFiles/test_trie.dir
+/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/CMakeFiles/test_alphabet_soup_solver.dir
+/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/CMakeFiles/edit_cache.dir
+/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="alphabet_soup"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\..\usr\share\qtcreator\;CMake Files\..\..\..\..\..\..\..\usr\share\qtcreator\package-manager\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_trie_node">
+				<Option output="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/test_trie_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 test_trie_node"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_trie_node/fast">
+				<Option output="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/test_trie_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 test_trie_node/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_trie">
+				<Option output="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/test_trie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 test_trie"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_trie/fast">
+				<Option output="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/test_trie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 test_trie/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_alphabet_soup_solver">
+				<Option output="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/test_alphabet_soup_solver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 test_alphabet_soup_solver"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_alphabet_soup_solver/fast">
+				<Option output="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/test_alphabet_soup_solver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 test_alphabet_soup_solver/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/alphabet_soup.cpp">
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/alphabet_soup.hpp">
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/alphabet_soup_solver.cpp">
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/alphabet_soup_solver.hpp">
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/test_alphabet_soup_solver.cpp">
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/test_trie.cpp">
+			<Option target="test_trie"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/test_trie_node.cpp">
+			<Option target="test_trie_node"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/trie.cpp">
+			<Option target="test_trie"/>
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/trie.hpp">
+			<Option target="test_trie"/>
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/trie_node.cpp">
+			<Option target="test_trie_node"/>
+			<Option target="test_trie"/>
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/trie_node.hpp">
+			<Option target="test_trie_node"/>
+			<Option target="test_trie"/>
+			<Option target="test_alphabet_soup_solver"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/carla/Escritorio/ED/ed/alphabet_soup_2.2/alphabet_soup/../../../../../../../usr/share/qtcreator/package-manager/auto-setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\qtcreator\package-manager\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
