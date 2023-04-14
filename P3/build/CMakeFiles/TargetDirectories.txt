@@ -1,4 +1,0 @@
-/home/carla/Escritorio/ED/ed/P3/build/CMakeFiles/test_bstree.dir
-/home/carla/Escritorio/ED/ed/P3/build/CMakeFiles/test_rbtree.dir
-/home/carla/Escritorio/ED/ed/P3/build/CMakeFiles/edit_cache.dir
-/home/carla/Escritorio/ED/ed/P3/build/CMakeFiles/rebuild_cache.dir
