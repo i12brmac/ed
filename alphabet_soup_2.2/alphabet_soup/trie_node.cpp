@@ -197,6 +197,30 @@ TrieNode::Ref TrieNode::create(std::istream& in) noexcept(false)
 {
     TrieNode::Ref node = nullptr;
     //TODO
+    std::string token;
+    in>>token;
+    if(token !="["){
+        throw std::runtime_error("Wrong input format");
+    }
+    in>>token;
+    if(token=="T"){
+        node= TrieNode::create(true);
+    }
+    else if(token=="F"){
+        node= TrieNode::create(false);
+    }
+    else{
+        throw std::runtime_error("Wrong input format");
+    }
+
+    while(in>>token && token !="]"){
+        node->set_child(char(std::stoi(token,nullptr,16)), TrieNode::create(in));
+    }
+
+    if(token!="]"){
+        throw std::runtime_error("Wrong input format");
+    }
+
 
     //
     return node;

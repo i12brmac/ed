@@ -216,7 +216,9 @@ protected:
     TrieNode::Ref root() const;
 
     //TODO
-
+    TrieNode::Ref _root;
+    TrieNode::Ref _current;
+    std::string _prefix;
     //
 };
 
